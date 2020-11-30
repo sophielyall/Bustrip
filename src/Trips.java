@@ -16,7 +16,7 @@ public class Trips {
 	static BufferedWriter writer;
 	static Double charge;
 	static String currentDirectory;
-	static String status;
+	
 	public static void main(String[] args) throws ParseException, IOException
 	{
 		currentDirectory = System.getProperty("user.dir");
@@ -27,7 +27,7 @@ public class Trips {
 		
 		for(int i = 0; i<taps.size(); i++)
 		{
-			status = "incomplete";
+			
 			
 			String[] result = taps.get(i).split(",");
 			if(result[2].equals("ON"))
