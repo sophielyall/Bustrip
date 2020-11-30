@@ -2,7 +2,9 @@
 # Instructions
 1.  run Trips
 2.  check trips.csv for trip details.
-To run the tests
+
+
+-To run the tests
 1.  run TripsTest
 2.  check the results of the tests.  
 
